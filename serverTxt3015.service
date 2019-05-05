@@ -1,0 +1,14 @@
+[Unit]
+Description=Test server text
+#Documentation=https://example.com
+After=network.target
+
+[Service]
+Environment=NODE_PORT=3015
+Type=simple
+User=ubuntu
+ExecStart=/usr/bin/node /home/trabajo/balancedServer1.0/server.js
+#Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
