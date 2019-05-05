@@ -4,10 +4,10 @@
  
 ### CONFIG ZONE
 # This is the service name. It cant have any special char or space.
-serviceName="server3015"
+serviceName="serverTxt3015"
  
 # Where is located your app
-appFilePath="/balancedServer1.0"
+appFilePath="/home/trabajo/balancedServer1.0/"
  
 # Whats the name of your main app file.
 appIndex="server.js"
